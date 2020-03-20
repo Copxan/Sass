@@ -1,17 +1,14 @@
-h1 {
-    color: brown;
-    transition: all 1s ease;
-    &:hover{
-        color: khaki;
-    }
-}
 
-body {
+  body {
     background-color: goldenrod;
-    display: block;
-    justify-content: center;
-
-}
+    h1 {
+       text-align: center;
+       color: brown;
+       &:hover{
+        color: khaki;
+       }
+    }
+  }
 
 div{
     a{
@@ -29,7 +26,7 @@ div{
             }
         }
     }
-    p{ 
+    p a{ 
         font{
             size: 1.2em;
             weight: bold;
