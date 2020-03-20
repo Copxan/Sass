@@ -1,5 +1,9 @@
 h1 {
     color: brown;
+    transition: all 1s ease;
+    &:hover{
+        color: khaki;
+    }
 }
 
 body {

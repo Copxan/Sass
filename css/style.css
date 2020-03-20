@@ -1,5 +1,8 @@
 h1 {
-  color: brown; }
+  color: brown;
+  transition: all 1s ease; }
+  h1:hover {
+    color: khaki; }
 
 body {
   background-color: goldenrod; }
