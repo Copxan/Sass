@@ -1,7 +1,8 @@
 
   body {
     background-color: white;
-    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Anton', sans-serif;
+
    
 
     h1 { 
@@ -40,6 +41,7 @@
             &:hover{
                 background-color: red;
                 text-transform: uppercase;
+                font-weight: bolder;
                
 
             }
