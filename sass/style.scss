@@ -8,6 +8,7 @@
         margin: 2em;
         text-align: center;
         color: brown;
+        animation: 5s linear 1s infinite alternate slidein;
         &:hover{
         color: red;
         }
@@ -23,6 +24,10 @@
     
     }
 
+        .lienautre{
+            color: rgb(206, 153, 54);
+        }
+
         #bouton {
             display: flex;
             justify-content: center;
@@ -32,8 +37,18 @@
         button {
             border: dotted yellow;
             border-radius: 10px;
+            &:hover{
+                background-color: red;
+                text-transform: uppercase;
+               
+
+            }
         }
     
     }
     
 
+    @keyframes slidein {
+        from { transform: scaleX(0); }
+        to   { transform: scaleX(1); }
+      }
