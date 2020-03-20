@@ -1,7 +1,8 @@
 
   body {
     background-color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+   
 
     h1 { 
         margin: 2em;
@@ -9,32 +10,29 @@
         color: brown;
         &:hover{
         color: red;
-       
-       }
-    }   
+        }
+        }   
        a{    
         display: flex;
         justify-content: center;
         margin: 2em;
         text-decoration: none;
+        color: red;
+
         
     }
 
         #bouton {
             display: flex;
             justify-content: center;
+            
+        }
+        
+        button {
+            border: dotted yellow;
+            border-radius: 10px;
         }
     
-    div{
-        .foo{
-            color:activecaption;
-            background-color: lightpink;
-            &-bar{
-                color: bisque;
-                background-color: chocolate;
-            }
-        }
     }
     
-}
 
