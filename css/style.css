@@ -1,2 +1,2 @@
-body{background-color:goldenrod}body h1{text-align:center;color:brown}body h1:hover{color:khaki}div a:hover,div a.class{background:lightgoldenrodyellow}div div .foo{color:activecaption;background-color:lightpink}div div .foo-bar{color:bisque;background-color:chocolate}div p a font{size:1.2em;weight:bold;family:serif}
+body{background-color:white;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}body h1{margin:2em;text-align:center;color:brown}body h1:hover{color:red}body a{display:flex;justify-content:center;margin:2em;text-decoration:none}body #bouton{display:flex;justify-content:center}body div .foo{color:activecaption;background-color:lightpink}body div .foo-bar{color:bisque;background-color:chocolate}
 /*# sourceMappingURL=style.css.map */

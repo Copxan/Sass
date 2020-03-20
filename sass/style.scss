@@ -1,21 +1,30 @@
 
   body {
-    background-color: goldenrod;
-    h1 {
-       text-align: center;
-       color: brown;
-       &:hover{
-        color: khaki;
-       }
-    }
-  }
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
-div{
-    a{
-        &:hover,&.class{
-            background: lightgoldenrodyellow;
-        }
+    h1 { 
+        margin: 2em;
+        text-align: center;
+        color: brown;
+        &:hover{
+        color: red;
+       
+       }
+    }   
+       a{    
+        display: flex;
+        justify-content: center;
+        margin: 2em;
+        text-decoration: none;
+        
     }
+
+        #bouton {
+            display: flex;
+            justify-content: center;
+        }
+    
     div{
         .foo{
             color:activecaption;
@@ -26,12 +35,6 @@ div{
             }
         }
     }
-    p a{ 
-        font{
-            size: 1.2em;
-            weight: bold;
-            family:serif; 
-        }
-    }
+    
 }
 
