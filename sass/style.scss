@@ -9,3 +9,28 @@ h1 {
 body {
     background-color: goldenrod;
 }
+
+div{
+    a{
+        &:hover,&.class{
+            background: lightgoldenrodyellow;
+        }
+    }
+    div{
+        .foo{
+            color:activecaption;
+            background-color: lightpink;
+            &-bar{
+                color: bisque;
+                background-color: chocolate;
+            }
+        }
+    }
+    p{ 
+        font{
+            size: 1.2em;
+            weight: bold;
+            family:serif; 
+        }
+    }
+}

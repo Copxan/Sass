@@ -1,10 +1,2 @@
-h1 {
-  color: brown;
-  transition: all 1s ease; }
-  h1:hover {
-    color: khaki; }
-
-body {
-  background-color: goldenrod; }
-
+h1{color:brown;transition:all 1s ease}h1:hover{color:khaki}body{background-color:goldenrod}div a:hover,div a.class{background:lightgoldenrodyellow}div div .foo{color:activecaption;background-color:lightpink}div div .foo-bar{color:bisque;background-color:chocolate}div p font{size:1.2em;weight:bold;family:serif}
 /*# sourceMappingURL=style.css.map */
