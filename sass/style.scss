@@ -1,5 +1,6 @@
 
-  body {
+ 
+ body {
     background-color: white;
     font-family: 'Anton', sans-serif;
 
@@ -51,6 +52,20 @@
     
 
     @keyframes slidein {
-        from { transform: scaleX(0); }
-        to   { transform: scaleX(1); }
+        from { transform: scaleX(1); }
+        to   { transform: scaleX(2); }
       }
+
+      $desktop-width: 992px;
+
+    @mixin tablet {
+    @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+        @content;
+    }
+    }
+
+    @mixin desktop {
+    @media (min-width: #{$desktop-width}) {
+        @content;
+    }
+    }
